@@ -1,0 +1,25 @@
+{
+  "CUST-1001": {"plan": "Postpaid Rs 599", "tenure_years": 4, "records": [
+    {"record_id": "TKT-5521", "customer_id": "CUST-1001", "type": "network_complaint", "date": "2026-10-04", "source_system": "tickets", "verified": true, "location_key": "CELL-A"},
+    {"record_id": "TKT-5540", "customer_id": "CUST-1001", "type": "network_complaint", "date": "2026-10-10", "source_system": "tickets", "verified": true, "location_key": "CELL-A"},
+    {"record_id": "TKT-5562", "customer_id": "CUST-1001", "type": "network_complaint", "date": "2026-10-13", "source_system": "tickets", "verified": true, "location_key": "CELL-A"},
+    {"record_id": "USG-1001@2026-10", "customer_id": "CUST-1001", "type": "usage", "date": "2026-10-14", "source_system": "usage", "verified": true, "change_pct": -35},
+    {"record_id": "NOTE-77", "customer_id": "CUST-1001", "type": "agent_note", "date": "2026-10-15", "source_system": "crm", "verified": false, "text": "Unverified agent speculation"}
+  ]},
+  "CUST-1002": {"plan": "Postpaid Rs 999", "tenure_years": 2, "records": [
+    {"record_id": "TKT-6610", "customer_id": "CUST-1002", "type": "billing_dispute", "date": "2026-10-02", "source_system": "tickets", "verified": true, "status": "resolved", "disputed_amount_inr": 1240},
+    {"record_id": "CALL-8821", "customer_id": "CUST-1002", "type": "billing_followup", "date": "2026-10-12", "source_system": "calls", "verified": true, "status": "disputed", "disputed_amount_inr": 1240}
+  ]},
+  "CUST-1003": {"plan": "Prepaid Rs 299", "tenure_years": 1, "records": [
+    {"record_id": "TKT-7100", "customer_id": "CUST-1003", "type": "network_complaint", "date": "2026-10-05", "source_system": "tickets", "verified": true, "location_key": "CELL-B"},
+    {"record_id": "USG-1003@2026-10", "customer_id": "CUST-1003", "type": "usage", "date": "2026-10-11", "source_system": "usage", "verified": true, "change_pct": 0}
+  ]},
+  "CUST-1004": {"plan": "Postpaid Family Rs 1499", "tenure_years": 6, "records": [
+    {"record_id": "CALL-9034", "customer_id": "CUST-1004", "type": "competitor_intent", "date": "2026-10-11", "source_system": "calls", "verified": true, "port_out": true, "requested_discount_pct": 50, "requested_months": 6}
+  ]},
+  "CUST-1005": {"plan": "Postpaid Rs 799", "tenure_years": 3, "records": []},
+  "CUST-1006": {"plan": "Postpaid Rs 699", "tenure_years": 2, "records": [
+    {"record_id": "TKT-8001", "customer_id": "CUST-1006", "type": "network_complaint", "date": "2026-10-09", "source_system": "tickets", "verified": true, "location_key": "CELL-C"},
+    {"record_id": "TKT-8002", "customer_id": "CUST-1006", "type": "network_complaint", "date": "2026-10-15", "source_system": "tickets", "verified": true, "location_key": "CELL-C"}
+  ]}
+}

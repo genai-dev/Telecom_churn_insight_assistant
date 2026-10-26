@@ -1,0 +1,6 @@
+{
+  "RET-POL": {"citation": "RET-POL@v1", "version": "v1", "max_bill_credit_inr": 500, "max_discount_pct": 20, "max_discount_months": 3, "actions": ["plan_review", "network_escalation", "bill_correction", "callback"]},
+  "NET-ESC": {"citation": "NET-ESC@v1", "version": "v1", "complaints_required": 3, "period_days": 30, "same_location": true},
+  "BILL-POL": {"citation": "BILL-POL@v1", "version": "v1", "correction_after_verification": true, "confirmation_hours": 48},
+  "OFFER-FEST": {"citation": "OFFER-FEST@v1", "version": "v1", "valid_from": "2026-09-25", "valid_until": "2026-10-08", "discount_pct": 50, "months": 2}
+}
